@@ -66,3 +66,10 @@ footer {
   font-family: 'Lato', sans-serif;
   color: white;
 }
+
+/* media queries for mobile version */
+
+@media only screen and (max-width: 480px) {
+.container h2{
+        font-size: 24px!important;
+}
