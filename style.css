@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+  margin: 0 auto;
+  background-color: green!important;
+}
+
+header .container h2{
+  text-align: center;
+  margin: 20px;
+  color: #fff;
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+}
+
+.indieFlower{
+  font-family: 'Indie Flower', cursive;
+}
+
+#quoteBox {
+  background-color: #fff;
+  padding: 10px;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+#quote-title {
+  font-weight: bold;
+  text-align: right;
+}
+
+.button {
+  padding: 5px 2px 5px;
+}
+
+.btn {
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-tweet{
+  background-color: #00ABF0;
+  opacity: 0.4;
+}
+
+.btn-quote{
+  opacity: 1;
+}
+
+.btn-quote:hover {
+   opacity: 0.9;
+}
+
+footer {
+  position: absolute;
+  bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  left: 0;
+  right: 0;
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
